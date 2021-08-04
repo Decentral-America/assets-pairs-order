@@ -5,11 +5,11 @@
 ## Example:
 
 ```
-yarn add @waves/assets-pairs-order
+yarn add @decentralchain/assets-pairs-order
 ```
 
 ```javascript
-import { createOrderPair, MAINNET_DATA } from '@waves/assets-pairs-order'
+import { createOrderPair, MAINNET_DATA } from '@decentralchain/assets-pairs-order'
 
 const orderPair = createOrderPair(MAINNET_DATA);
 orderPair(
